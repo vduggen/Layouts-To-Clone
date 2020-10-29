@@ -5,7 +5,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
 <h1 align="center">Quer colaborar?</h1>
 
 ### Se tiver um Layout
-1. Abra uma issue
+1. Abra uma issue com a label new layout
 1. Com o nome, level e link para o design
 
 ### Melhorias no repositório
