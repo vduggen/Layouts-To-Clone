@@ -9,8 +9,6 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
 - **Nível 300:** Avançado
 - **Nível 400:** Expert
 
-<h1 align="center">Templates</h1>
-
 <h2 align="center">Dashboard</h2>
 
 <table>
