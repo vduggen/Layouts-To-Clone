@@ -13,7 +13,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
 
 <h2 align="center">Dashboard</h2>
 
-<table style="width: 100%">
+<table>
   <thead>
     <tr>
       <th style="text-align: center">Nome</th>
@@ -54,7 +54,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
 
 <h2 align="center">Landing Page</h2>
 
-<table style="width: 100%;">
+<table>
   <thead>
     <tr>
       <th style="text-align: center">Nome</th>
