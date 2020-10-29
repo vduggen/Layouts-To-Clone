@@ -24,14 +24,14 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
       <td>Freebie</td>
       <td>100</td>
       <td>
-        <a href="https://dribbble.com/shots/14243639-FREEBIE-Dashboard-UI-Design-in-Figma">Ver Design</a>
+        <a href="https://dribbble.com/shots/14243639-FREEBIE-Dashboard-UI-Design-in-Figma" target="__blank">Ver Design</a>
       </td>
     </tr>
     <tr>
       <td>Ecourse</td>
       <td>200</td>
       <td>
-        <a href="https://dribbble.com/shots/13966399-FIGMA-FREEBIE-ecourse-dashboard">
+        <a href="https://dribbble.com/shots/13966399-FIGMA-FREEBIE-ecourse-dashboard" target="__blank">
           Ver Design
         </a>
       </td>
@@ -40,7 +40,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
       <td>Chat</td>
       <td>300</td>
       <td>
-        <a href="https://dribbble.com/shots/6960264-Freebie-Chat-Dashboard-Figma">
+        <a href="https://dribbble.com/shots/6960264-Freebie-Chat-Dashboard-Figma" target="__blank">
           Ver Design
         </a>
       </td>
@@ -65,14 +65,14 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
       <td>Tour and travel website</td>
       <td>100</td>
       <td>
-        <a href="https://dribbble.com/shots/13625987/attachments/5230634?mode=media">Ver Design</a>
+        <a href="https://dribbble.com/shots/13625987/attachments/5230634?mode=media" target="__blank">Ver Design</a>
       </td>
     </tr>
     <tr>
       <td>Search Engine Optimization (SEO)</td>
       <td>100</td>
       <td>
-        <a href="https://dribbble.com/shots/14200401-Search-Engine-Optimization-SEO">
+        <a href="https://dribbble.com/shots/14200401-Search-Engine-Optimization-SEO" target="__blank">
           Ver Design
         </a>
       </td>
@@ -81,7 +81,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
       <td>VPN Landing Page</td>
       <td>100</td>
       <td>
-        <a href="https://dribbble.com/shots/14310214--FREE-Landingpage-LaslesVPN">
+        <a href="https://dribbble.com/shots/14310214--FREE-Landingpage-LaslesVPN" target="__blank">
           Ver Design
         </a>
       </td>
@@ -90,7 +90,7 @@ Este repositório tem como objetivo reunir templates de sites para ajudar a pess
       <td>Whatsapp Landing Page</td>
       <td>200</td>
       <td>
-        <a href="https://www.behance.net/gallery/105879851/Whatsapp-Landing-Page">
+        <a href="https://www.behance.net/gallery/105879851/Whatsapp-Landing-Page" target="__blank">
           Ver Design
         </a>
       </td>
