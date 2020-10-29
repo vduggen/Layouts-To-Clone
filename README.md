@@ -2,6 +2,18 @@
 
 Este repositório tem como objetivo reunir templates de sites para ajudar a pessoas que estão aprendendo e estão querendo praticar o desenvolvimento de sites.
 
+<h1 align="center">Quer colaborar?</h1>
+
+### Se tiver um Layout
+1. Abra uma issue
+1. Com o nome, level e link para o design
+
+### Melhorias no repositório
+1. Faça um fork desse repositório;
+1. Cria uma branch com a sua feature: git checkout -b minha-feature;
+1. Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
+1. Faça push para a sua branch: git push origin minha-feature.
+
 <h1 align="center">Level Layouts</h1>
 
 - **Nível 100:** Básico
