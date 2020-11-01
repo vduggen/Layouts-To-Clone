@@ -1,30 +1,113 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Sobre o Repositório</h1>
 
-## Getting Started
+Este repositório tem como objetivo reunir templates de sites para ajudar a pessoas que estão aprendendo e estão querendo praticar o desenvolvimento de sites.
 
-First, run the development server:
+<h1 align="center">Quer colaborar?</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Se tiver um Layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Abra uma issue com a label new layout
+1. Com o nome, level e link para o design
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Melhorias no repositório
 
-## Learn More
+1. Faça um fork desse repositório;
+1. Cria uma branch com a sua feature: git checkout -b minha-feature;
+1. Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
+1. Faça push para a sua branch: git push origin minha-feature.
 
-To learn more about Next.js, take a look at the following resources:
+<h1 align="center">Level Layouts</h1>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Nível 100:** Básico
+- **Nível 200:** Intermediário
+- **Nível 300:** Avançado
+- **Nível 400:** Expert
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2 align="center">Dashboard</h2>
 
-## Deploy on Vercel
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Nome</th>
+      <th style="text-align: center">Nível</th>
+      <th style="text-align: center">Link</th>
+    </tr>
+  </thead>
+  <tbody style="text-align: center;">
+    <tr>
+      <td>Freebie</td>
+      <td>100</td>
+      <td>
+        <a href="https://dribbble.com/shots/14243639-FREEBIE-Dashboard-UI-Design-in-Figma" target="__blank">Ver Design</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Ecourse</td>
+      <td>200</td>
+      <td>
+        <a href="https://dribbble.com/shots/13966399-FIGMA-FREEBIE-ecourse-dashboard" target="__blank">
+          Ver Design
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Chat</td>
+      <td>300</td>
+      <td>
+        <a href="https://dribbble.com/shots/6960264-Freebie-Chat-Dashboard-Figma" target="__blank">
+          Ver Design
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 align="center">Landing Page</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Nome</th>
+      <th style="text-align: center">Nível</th>
+      <th style="text-align: center">Link</th>
+    </tr>
+  </thead>
+  <tbody style="text-align: center">
+    <tr>
+      <td>Tour and travel website</td>
+      <td>100</td>
+      <td>
+        <a href="https://dribbble.com/shots/13625987/attachments/5230634?mode=media" target="__blank">Ver Design</a>
+      </td>
+    </tr>
+    <tr>
+      <td>Search Engine Optimization (SEO)</td>
+      <td>100</td>
+      <td>
+        <a href="https://dribbble.com/shots/14200401-Search-Engine-Optimization-SEO" target="__blank">
+          Ver Design
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>VPN Landing Page</td>
+      <td>100</td>
+      <td>
+        <a href="https://dribbble.com/shots/14310214--FREE-Landingpage-LaslesVPN" target="__blank">
+          Ver Design
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Whatsapp Landing Page</td>
+      <td>200</td>
+      <td>
+        <a href="https://www.behance.net/gallery/105879851/Whatsapp-Landing-Page" target="__blank">
+          Ver Design
+        </a>
+      </td>
+    </tr>    
+  </tbody>
+</table>
