@@ -40,3 +40,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 1. Faça push para a sua branch: `git push origin minha-feature`.
 
 Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+<h2 id="licença">Licença</h2>
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
