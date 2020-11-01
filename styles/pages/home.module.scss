@@ -1,0 +1,8 @@
+@import "../main.scss";
+
+#containerHome {
+	background-color: $nord1;
+	min-height: 100vh;
+	@include d-flex(center, "", column);
+	padding: 2rem 0;
+}

@@ -1,0 +1,77 @@
+@import "../main.scss";
+
+.ContainerTableListItems {
+	box-shadow: 0 0 14px $box-shadow;
+
+	.TableListItems {
+		width: 100%;
+
+		thead {
+			tr {
+				th {
+					text-align: center;
+					color: $light;
+					background: $nord0;
+					font: $font-medium 1rem $font-family;
+					width: calc(100% / 3);
+					height: 50px;
+
+					&:hover {
+						opacity: 0.7;
+					}
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				&:hover {
+					opacity: 0.6;
+				}
+
+				td {
+					text-align: center;
+					width: calc(100% / 3);
+					font: $font-medium 1rem $font-family;
+					color: $light;
+					background: $nord2;
+
+					height: 50px;
+
+					a {
+						color: $light;
+						transition: ease-in-out 0.3s;
+
+						&:hover {
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 300px) {
+	.ContainerTableListItems {
+		overflow-x: auto;
+		width: 95%;
+		margin: 0 auto;
+
+		.TableListItems {
+			width: calc(100% * 3);
+		}
+	}
+}
+
+@media (min-width: 800px) {
+	.ContainerTableListItems {
+		overflow-x: hidden;
+		width: 100%;
+		margin: 0 auto;
+
+		.TableListItems {
+			width: 100%;
+		}
+	}
+}

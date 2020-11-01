@@ -1,0 +1,52 @@
+@import "../main.scss";
+
+#containerRegisterItem {
+	background: $nord1;
+	min-height: calc(100vh - 162px);
+	padding: 2rem 0;
+
+	@include d-flex(center, center, column);
+
+	header {
+		padding: 1rem 0;
+
+		h1 {
+			font: $font-bold 2.3rem $font-family;
+			color: $light;
+		}
+	}
+
+	.containerForm {
+		@include container;
+
+		form {
+			width: 400px;
+			margin: 0 auto;
+
+			button {
+				@include button(100%, 40px);
+			}
+
+			.containerInput,
+			.containerSelect {
+				display: flex;
+				flex-direction: column;
+
+				margin: 0.5rem 0;
+
+				&:first-of-type {
+					margin-top: 0;
+				}
+
+				label {
+					@include label;
+				}
+
+				input,
+				select {
+					@include input;
+				}
+			}
+		}
+	}
+}

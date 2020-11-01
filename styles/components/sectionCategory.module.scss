@@ -1,0 +1,44 @@
+@import "../main.scss";
+
+.containerSection {
+	@include container;
+	margin: 1rem 0;
+
+	&:first-of-type {
+		margin-top: 0;
+	}
+
+	header {
+		height: auto;
+		color: $light;
+		@include d-flex(center, center);
+		padding: 1rem 0;
+		text-transform: capitalize;
+
+		h1 {
+			font: $font-bold 2.3rem $font-family;
+			@include d-flex(center, center, column);
+
+			span {
+				font: $font-light 1rem $font-family;
+				text-transform: none;
+				margin-top: 0.5rem;
+				color: $muted;
+				text-align: center;
+				padding: 0 1rem;
+			}
+		}
+	}
+}
+
+@media (min-width: 800px) {
+	.containerSection {
+		header {
+			h1 {
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+}

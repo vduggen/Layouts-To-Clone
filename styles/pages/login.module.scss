@@ -1,0 +1,46 @@
+@import "../main.scss";
+
+#containerLogin {
+	height: calc(100vh - 162px);
+	background: $nord1;
+
+	#containerFormLogin {
+		@include container;
+		margin: 0 auto;
+		@include d-flex(center, center, column);
+		padding: 2rem 0;
+		height: 100%;
+
+		header {
+			padding: 1rem 0;
+
+			h1 {
+				font: $font-bold 2.3rem $font-family;
+				color: $light;
+			}
+		}
+
+		form {
+			width: 400px;
+
+			.containerInput {
+				display: flex;
+				flex-direction: column;
+
+				margin: 0.5rem 0;
+
+				label {
+					@include label;
+				}
+
+				input {
+					@include input;
+				}
+			}
+
+			button {
+				@include button(100%, 40px);
+			}
+		}
+	}
+}

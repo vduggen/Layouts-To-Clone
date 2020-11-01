@@ -1,0 +1,19 @@
+@import "../main.scss";
+
+.containerHeader {
+	background-color: $nord0;
+	padding: 1rem 0;
+
+	@include d-flex(center, center);
+
+	svg {
+		width: 130px;
+		height: 130px;
+		transition: ease-in-out 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
