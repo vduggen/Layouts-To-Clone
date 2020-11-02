@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.min.css";
 import ReactGA from "react-ga";
 
 function MyApp({ Component, pageProps }: AppProps) {
-	ReactGA.initialize("G-BDE2GLXLNC");
+	ReactGA.initialize("G-C1PH8X16BQ");
 
 	return (
 		<>
