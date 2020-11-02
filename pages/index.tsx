@@ -44,8 +44,7 @@ function Home({ data }: DataProp) {
 }
 
 export async function getServerSideProps() {
-	// let data = await LayoutService.GetLayouts();
-	let data = [];
+	let data = await LayoutService.GetLayouts();
 
 	return {
 		props: { data: data },
