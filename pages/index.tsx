@@ -24,7 +24,7 @@ function Home({ data }: DataProp) {
 				<section className={StyleSectionCategory.containerSection}>
 					<header>
 						<h1>
-							Level Layouts{" "}
+							Level Layouts
 							<span>
 								Arraste a tabela para o lado para visualizar o resto do contéudo
 							</span>
@@ -44,7 +44,8 @@ function Home({ data }: DataProp) {
 }
 
 export async function getServerSideProps() {
-	let data = await LayoutService.GetLayouts();
+	// let data = await LayoutService.GetLayouts();
+	let data = [];
 
 	return {
 		props: { data: data },
