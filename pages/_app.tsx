@@ -1,16 +1,22 @@
 import type { AppProps } from "next/app";
-import { useEffect } from 'react';
 import { ToastContainer } from "react-toastify";
 import "../styles/reset.css";
 import "react-toastify/dist/ReactToastify.min.css";
-import ReactGA from "react-ga";
+import { useRouter } from "next/dist/client/router";
+import { useEffect } from "react";
+import * as gtag from "../lib/gtag";
 
 function MyApp({ Component, pageProps }: AppProps) {
-	ReactGA.initialize("G-C1PH8X16BQ");
-	
+	const router = useRouter();
 	useEffect(() => {
-		ReactGA.pageview(window.location.pathname + window.location.search);
-	}, [])
+		const handleRouteChange = (url: string) => {
+			gtag.pageview(url);
+		};
+		router.events.on("routeChangeComplete", handleRouteChange);
+		return () => {
+			router.events.off("routeChangeComplete", handleRouteChange);
+		};
+	}, [router.events]);
 
 	return (
 		<>
