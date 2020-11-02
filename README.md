@@ -6,11 +6,12 @@
 </p>
 
 ## Tabela de conteúdos
-   * [Sobre](#Sobre)
-   * [Tecnologias](#tecnologias)
-   * [Como Contribuir](#contribuir)
-   * [Licença](#licença)
-   
+
+- [Sobre](#Sobre)
+- [Tecnologias](#tecnologias)
+- [Como Contribuir](#contribuir)
+- [Licença](#licença)
+
 <h2 id="Sobre">Sobre o Projeto</h2>
 Este repositório tem como objetivo reunir templates de sites para ajudar a pessoas que estão aprendendo e estão querendo praticar o desenvolvimento de sites.
 
@@ -23,7 +24,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 - [Nord Theme](https://www.nordtheme.com/)
-
 
 <h2 id="contribuir">Como contribuir</h2>
 
@@ -43,4 +43,4 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 <h2 id="licença">Licença</h2>
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
